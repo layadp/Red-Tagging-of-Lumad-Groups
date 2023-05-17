@@ -62,7 +62,7 @@
                 <p>The values in the "Account type" column are categorical data. These were encoded into numerical values as 0 for Anonymous, 1 for Identified, and 2 for Media. This encoding is added as a new "Account type category" column.</p>
               </section>
             </div>
-            <div class="col-4 col-6-medium col-12-small">
+            <div class="col-12 col-6-medium col-12-small">
               <section class="box style1">
                 <h3>Standardization</h3>
                 <p>The frequency of tweets per year were scaled around the mean with a unit standard deviation. Here, we considered outliers to be values which exceed 3 standard deviations from the mean. From this definition, the resulting graph shows that there are no outliers among the number of tweets for each year. Most years have tweet frequencies that fall below one standard deviation from the mean, with the exception of the years 2015 and 2018 which exceed 1 and 2 standard deviations, respectively.</p>
@@ -113,19 +113,21 @@
           </header>
           <p>text</p>
           <div class="row aln-center">
-            <div class="col-8 col-12-medium col-6-small">
+            <div class="col-10 col-12-medium col-6-small">
               <section class="box style1">
                 <h3>Scatterplot</h3>
                 <p>A scatterplot was used to display the relationship between tweet engagement and tweet content type, as well as tweet engagement and year posted. The engagement value is further discussed in the <a href="#features">Feature Generation</a> section.</p>
                 <p>The first scatterplot shows us that tweets under the Rational type have the highest engagement, while tweets under the Transactional type have the lowest engagement. This implies that users engage more with tweets that are informational or educational.</p>
                 <p>The second scatterplot shows us that tweets made in recent years, specifically 2020 and 2022, have the highest engagement</p>
-                <!-- insert 2 scatterplots -->
+                <img src="images/scatterplot1.png" width="500" />
+                <img src="images/scatterplot2.png" width="400" />
               </section>
             </div>
-            <div class="col-8 col-12-medium col-6-small">
+            <div class="col-10 col-12-medium col-6-small">
               <section class="box style1">
                 <h3>Heatmap</h3>
-                <p>text</p>
+                <p>A heatmap was used to display the correlation between a tweet's likes, replies, retweets, quote tweets, and engagement, and the number of followers of the account that posted the tweet. While there is a positive correlation between the engagement and followers, this is considered to be a weak correlation. This implies that tweets made by accounts with a high number of followers do not necessarily mean that their tweets have high engagement. Moreover, out of the four contributors for engagement, it can be noticed that retweets and likes have the highest correlations. This can mean that users may be more influenced to retweet and/or like a tweet if the author is well-known.</p>
+                <img src="images/heatmap.png" width="400" />
               </section>
             </div>
             <div class="col-8 col-12-medium col-6-small">
