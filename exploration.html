@@ -94,12 +94,6 @@
           <div class="row aln-center">
             <div class="col-8 col-12-medium col-6-small">
               <section class="box style1">
-                <h3>Interpolation</h3>
-                <p>text</p>
-              </section>
-            </div>
-            <div class="col-8 col-12-medium col-6-small">
-              <section class="box style1">
                 <h3>Binning</h3>
                 <p>The tweets collected were grouped into yearly, daily, and 6-hour intervals. Most of the tweets collected were made in 2018, while no tweets were collected from the year 2016. Tweets were usually created on Fridays from the 18:00-23:59 time period.</p>
                 <!-- insert the 3 graphs -->
@@ -119,7 +113,7 @@
             <div class="col-8 col-12-medium col-6-small">
               <section class="box style1">
                 <h3>Scatterplot</h3>
-                <p>A scatterplot was used to display the relationship between tweet engagement and tweet content type, as well as tweet engagement and year posted. The engagement value was taken by adding a tweet's likes, replies, retweets, and quote tweets.</p>
+                <p>A scatterplot was used to display the relationship between tweet engagement and tweet content type, as well as tweet engagement and year posted. The engagement value is further discussed in the <a href="#features">Feature Generation</a> section.</p>
                 <p>The first scatterplot shows us that tweets under the Rational type have the highest engagement, while tweets under the Transactional type have the lowest engagement. This implies that users engage more with tweets that are informational or educational.</p>
                 <p>The second scatterplot shows us that tweets made in recent years, specifically 2020 and 2022, have the highest engagement</p>
                 <!-- insert 2 scatterplots -->
@@ -152,12 +146,12 @@
           <header>
             <h2><strong>FEATURE ANALYSIS</strong></h2>
           </header>
-          <p>text</p>
+          <p>Features of the dataset were analyzed to determine which are relevant to the project and can produce additional insights.</p>
           <div class="row aln-center">
-            <div class="col-8 col-12-medium col-6-small">
+            <div class="col-10 col-12-medium col-6-small">
               <section class="box style1">
-                <h3>Feature Generation/Engineering</h3>
-                <p>text</p>
+                <h3>Feature Generation</h3>
+                <p>Additional columns for which day of the week the tweet was posted and the engagement of the tweet were added to the dataset as the "Day" and "Engagements" columns respectively. The tweet engagement value was calculated by taking the sum of each tweet's likes, replies, retweets, and quote tweets. These features were included for further analysis on the data collected.</p>
               </section>
             </div>
           </div>
