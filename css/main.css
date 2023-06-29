@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+#memberpic {
+	width: 50px;
+	border-radius: 50%
+}
+
+
 /* Basic */
 
 	html {
@@ -1636,6 +1642,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+
 
 		.image.featured {
 			display: block;
